@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 50px 150px auto auto 60px 60px 60px 60px;
-    grid-template-rows: 1fr;
+    grid-template-rows: 2fr;
    
 }
 .menu-button{
@@ -9,12 +9,19 @@
     background-color: white;
     cursor: pointer;
 }
+.menu-button img{
+    width: 20px;
+}
 
 .youtubelogo{
     background-color: green;
     border: none;
     background-color: white;
     cursor: pointer;
+}
+
+.youtubelogo img{
+    width: 100px;
 }
 .searc-bar{
     border: lightgray 1px;
@@ -26,6 +33,13 @@
     height: 25px;
     width:  500px;
 }
+.srch-button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+  
+}
 
 .camera{
     align-self: center;
@@ -34,4 +48,48 @@
     border: none;
     background-color: rgb(116, 0, 199);
     border-radius: 50%;
+}
+.mic-button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.mic-button img{
+    width: 15px;
+}
+.cam-button{
+    cursor: pointer;
+    justify-self: center;
+    border: none;
+    background-color: white;
+}
+
+.cam-button img{
+    width: 25px;
+}
+
+.apps-button{
+    cursor: pointer;
+    justify-self: center;
+    border: none;
+    background-color: white;
+
+}
+.apps-button img{
+    width: 25px;
+}
+.bell-button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.bell-button img{
+    width: 25px;
+}
+
+.srch-button img{
+    width: 20px;
+}
+.log-button img{
+    width: 25px;
 }
