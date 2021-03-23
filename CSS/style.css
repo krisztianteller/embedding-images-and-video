@@ -1,5 +1,8 @@
 .container{
     display: grid;
+    grid-template-columns: 50px 150px auto auto 60px 60px 60px 60px;
+    grid-template-rows: 1fr;
+   
 }
 .menu-button{
     border: none;
@@ -8,11 +11,27 @@
 }
 
 .youtubelogo{
+    background-color: green;
     border: none;
     background-color: white;
     cursor: pointer;
 }
 .searc-bar{
+    border: lightgray 1px;
+    justify-self:  right;
+    align-self: center;
     
-    
+}
+.search-input{
+    height: 25px;
+    width:  500px;
+}
+
+.camera{
+    align-self: center;
+}
+.log-button{
+    border: none;
+    background-color: rgb(116, 0, 199);
+    border-radius: 50%;
 }
