@@ -93,3 +93,24 @@
 .log-button img{
     width: 25px;
 }
+.main{
+    display: grid;
+}
+.video{
+    justify-self: left;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+    
+}
+.video-title{
+    
+    margin-left: 20px;
+    background-color: red;
+    padding-block: 20px;
+}
+
+.view{
+    
+    margin-left: 20px;
+}
