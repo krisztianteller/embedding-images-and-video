@@ -1,5 +1,18 @@
+.container{
+    display: grid;
+}
 .menu-button{
     border: none;
     background-color: white;
     cursor: pointer;
+}
+
+.youtubelogo{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.searc-bar{
+    
+    
 }
