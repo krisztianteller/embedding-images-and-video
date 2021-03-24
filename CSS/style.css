@@ -110,12 +110,18 @@
     grid-column: 1/2;
     margin-left: 20px;
 }
+.video-title p{
+    font-weight: bold;
+}
 
 .view{
     grid-column: 1;
     margin-left: 20px;
     border-bottom: gray solid 1px;
 
+}
+.view p{
+    color: gray;
 }
 
 .like{
