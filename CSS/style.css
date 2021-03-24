@@ -95,22 +95,36 @@
 }
 .main{
     display: grid;
+    grid-template-columns: 650px 50px 50px 50px 50px 50px;
+    grid-template-rows: auto auto;
+
 }
 .video{
-    justify-self: left;
+    grid-column: 1/2;
     margin-top: 30px;
     margin-left: 20px;
    
     
 }
 .video-title{
+    grid-column: 1/2;
     
     margin-left: 20px;
-    background-color: red;
-    padding-block: 20px;
 }
 
 .view{
-    
+    grid-column: 1;
     margin-left: 20px;
+}
+
+.like{
+    background-color: white;
+    border: none;
+    
+}
+
+.dislike{
+    background-color: white;
+    border: none;
+   
 }
