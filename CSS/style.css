@@ -95,7 +95,7 @@
 }
 .main{
     display: grid;
-    grid-template-columns: 650px 50px 50px 50px 50px 50px;
+    grid-template-columns: 700px 60px 60px 60px 60px 60px;
     grid-template-rows: auto auto;
 
 }
@@ -108,13 +108,14 @@
 }
 .video-title{
     grid-column: 1/2;
-    
     margin-left: 20px;
 }
 
 .view{
     grid-column: 1;
     margin-left: 20px;
+    border-bottom: gray solid 1px;
+
 }
 
 .like{
@@ -127,4 +128,50 @@
     background-color: white;
     border: none;
    
+}
+
+.share-button{
+    background-color: white;
+    border: none;
+}
+
+.save-button{
+    background-color: white;
+    border: none;
+}
+.doticon{
+    background-color: white;
+    border: none;
+
+}
+.dot-menu{
+    border-bottom: gray solid 1px;
+}
+.save{
+    border-bottom: gray solid 1px;
+}
+.save img{
+    width: 20px;
+
+}
+.share{
+    border-bottom: gray solid 1px;
+
+}
+.share img{
+    width: 20px;
+}
+.thumbsdown{
+    border-bottom: gray solid 3px;
+
+
+}
+.thumbsdown img{
+    width: 25px;
+}
+.thumbsup{
+    border-bottom: gray solid 3px;
+}
+.thumbsup img{
+    width: 35px;
 }
