@@ -192,32 +192,22 @@
 }
 
 .channel-logo img{
-    margin-top: 20px;
+    
     margin-left: 15px;
     width: 40px;
     border-radius: 50%;
 }
 
+
 .channel-info{
     display: grid;
     grid-template-columns: 80px 780px 150px;
-}
-
-.channel-info{
     text-align: left;
 }
 
-.channel-name{
-    margin-top: 5px;
-}
-.channel-subscribers-count{
-    height: 30px;
-}
-
-
 .subscribers-button{
 
-    margin-top: 20px;
+    
     text-align: center;
     height: 50px;
     width: 140px;
@@ -228,10 +218,65 @@
 
 .header-buttons{
     margin-top: 25px;
+    margin-bottom: 15px;
+    
 }
 .all-button{
-    width: 25px;
-    height: 20px;
+    font-weight: bold ;
+    padding: 5px 25px;
     border: none;
     border-radius: 25px;
+}
+
+.your-search{
+    font-weight: bold ;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+
+}
+.related{
+    font-weight: bold ;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+
+}
+.watched{
+    font-weight: bold ;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+
+}
+.video-1{
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+.video-1 iframe{ 
+    float: left;
+}
+
+.main-videos a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video-2{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.video-3{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.video-4{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.video-5{
+    margin-top: 5px;
+    margin-left: 5px;
 }
