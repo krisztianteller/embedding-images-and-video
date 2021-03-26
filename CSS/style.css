@@ -45,8 +45,12 @@
     align-self: center;
 }
 .log-button{
+    cursor: pointer;
+    background-color: white;
+    border: none
+}
+.log-button img{
     border: none;
-    background-color: rgb(116, 0, 199);
     border-radius: 50%;
 }
 .mic-button{
@@ -95,9 +99,14 @@
 }
 .main{
     display: grid;
-    grid-template-columns: 700px 60px 60px 60px 60px 60px;
-    grid-template-rows: auto auto;
+    grid-template-columns: 700px 60px 60px 60px 60px 60px auto;
+    grid-template-rows: auto auto ;
 
+}
+.other-videos{
+    grid-row: 1/7;
+    grid-column: 7;
+    
 }
 .video{
     grid-column: 1/2;
@@ -180,4 +189,49 @@
 }
 .thumbsup img{
     width: 35px;
+}
+
+.channel-logo img{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.channel-info{
+    display: grid;
+    grid-template-columns: 80px 780px 150px;
+}
+
+.channel-info{
+    text-align: left;
+}
+
+.channel-name{
+    margin-top: 5px;
+}
+.channel-subscribers-count{
+    height: 30px;
+}
+
+
+.subscribers-button{
+
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.header-buttons{
+    margin-top: 25px;
+}
+.all-button{
+    width: 25px;
+    height: 20px;
+    border: none;
+    border-radius: 25px;
 }
